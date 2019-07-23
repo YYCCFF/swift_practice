@@ -1,10 +1,6 @@
 //
 //  ViewController.swift
 //  cal
-//
-//  Created by 近沢勇輝 on 2019/06/22.
-//  Copyright © 2019 Yuki Chikazawa. All rights reserved.
-//
 
 import UIKit
 
