@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたの消費カロリーは" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ko-jc-ZuV">
+                                <rect key="frame" x="54" y="267" width="340" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="svK-KO-Bvh"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="pvQ-x4-4vC"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calです!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muB-rb-e2s">
+                                <rect key="frame" x="298" y="437.5" width="79" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="BoP-SN-cAA"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="0qi-XD-wLU"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="？？？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="7" translatesAutoresizingMaskIntoConstraints="NO" id="xfx-0p-boa">
+                                <rect key="frame" x="155" y="437" width="76" height="29"/>
+                                <viewLayoutGuide key="safeArea" id="N3h-Ay-fUb"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="bottom" semanticContentAttribute="playback" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnC-j6-EgD">
+                                <rect key="frame" x="124" y="558" width="166" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FnC-j6-EgD" secondAttribute="height" multiplier="83:21" id="94N-rW-sj5"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="hzN-mB-jIr"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="結果を見る">
+                                    <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="result" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZZ-Sw-epi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5Ko-jc-ZuV" firstAttribute="width" secondItem="muB-rb-e2s" secondAttribute="height" multiplier="85:7" id="3LV-b0-jyc"/>
+                            <constraint firstItem="xfx-0p-boa" firstAttribute="top" secondItem="5Ko-jc-ZuV" secondAttribute="bottom" constant="149" id="4sR-SZ-mRj"/>
+                            <constraint firstItem="muB-rb-e2s" firstAttribute="centerY" secondItem="xfx-0p-boa" secondAttribute="centerY" id="6rD-D1-BgS"/>
+                            <constraint firstItem="5Ko-jc-ZuV" firstAttribute="leading" relation="lessThanOrEqual" secondItem="xfx-0p-boa" secondAttribute="leading" placeholder="YES" id="78y-6D-9rF"/>
+                            <constraint firstItem="xfx-0p-boa" firstAttribute="top" secondItem="5Ko-jc-ZuV" secondAttribute="bottom" constant="100" id="Abq-l7-jGH"/>
+                            <constraint firstItem="muB-rb-e2s" firstAttribute="top" secondItem="5Ko-jc-ZuV" secondAttribute="bottom" priority="100" constant="13" id="FWK-91-bZb"/>
+                            <constraint firstItem="FnC-j6-EgD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="514" id="HXd-s6-FwB"/>
+                            <constraint firstItem="5Ko-jc-ZuV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="K39-DO-mIy"/>
+                            <constraint firstItem="FnC-j6-EgD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SMC-8Y-IzO"/>
+                            <constraint firstItem="FnC-j6-EgD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="SpP-uh-hmX"/>
+                            <constraint firstItem="xfx-0p-boa" firstAttribute="top" secondItem="5Ko-jc-ZuV" secondAttribute="bottom" constant="149" id="WUo-rN-P2s"/>
+                            <constraint firstItem="FnC-j6-EgD" firstAttribute="top" secondItem="5Ko-jc-ZuV" secondAttribute="bottom" constant="262" id="XJP-y4-sKP"/>
+                            <constraint firstItem="FnC-j6-EgD" firstAttribute="top" secondItem="xfx-0p-boa" secondAttribute="bottom" constant="85" placeholder="YES" id="YN6-PM-hbM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="muB-rb-e2s" secondAttribute="trailing" constant="37" id="e0T-5Z-EAS"/>
+                            <constraint firstItem="muB-rb-e2s" firstAttribute="leading" secondItem="xfx-0p-boa" secondAttribute="trailing" constant="67" id="hqK-mg-tHQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FnC-j6-EgD" secondAttribute="bottom" constant="262" id="iPc-yS-Z2n"/>
+                            <constraint firstItem="5Ko-jc-ZuV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="223" id="n6G-cJ-b62"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FnC-j6-EgD" secondAttribute="trailing" constant="124" id="oIY-On-zS3"/>
+                            <constraint firstItem="FnC-j6-EgD" firstAttribute="top" secondItem="muB-rb-e2s" secondAttribute="baseline" constant="91" id="pFb-rh-X8M"/>
+                            <constraint firstItem="muB-rb-e2s" firstAttribute="baseline" secondItem="xfx-0p-boa" secondAttribute="baseline" id="qVc-QA-hfO"/>
+                            <constraint firstItem="5Ko-jc-ZuV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="swF-as-4v4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="78y-6D-9rF"/>
+                                <exclude reference="Abq-l7-jGH"/>
+                                <exclude reference="WUo-rN-P2s"/>
+                                <exclude reference="SMC-8Y-IzO"/>
+                                <exclude reference="XJP-y4-sKP"/>
+                                <exclude reference="YN6-PM-hbM"/>
+                                <exclude reference="pFb-rh-X8M"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cal" destination="xfx-0p-boa" id="7Wv-iv-3CN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+</document>
