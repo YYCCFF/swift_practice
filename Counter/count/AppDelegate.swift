@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  count
-//
-//  Created by 近沢勇輝 on 2019/07/28.
-//  Copyright © 2019 Yuki Chikazawa. All rights reserved.
-//
 
 import UIKit
 
