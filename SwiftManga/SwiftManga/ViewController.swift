@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  SwiftManga
-//
-//  Created by 近沢勇輝 on 2019/07/30.
-//  Copyright © 2019 Yuki Chikazawa. All rights reserved.
-//
+
 
 import UIKit
 
