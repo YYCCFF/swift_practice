@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  TableView1
-//
-//  Created by 近沢勇輝 on 2019/08/06.
-//  Copyright © 2019 Yuki Chikazawa. All rights reserved.
-//
 
 import UIKit
 
