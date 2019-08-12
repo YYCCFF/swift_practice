@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  SwiftWKWebView
-//
-//  Created by 近沢勇輝 on 2019/08/02.
-//  Copyright © 2019 Yuki Chikazawa. All rights reserved.
-//
-
 import UIKit
 import WebKit
 
@@ -13,7 +5,7 @@ class ViewController: UIViewController,WKNavigationDelegate {
 
     @IBOutlet weak var webView: WKWebView!
     
-    var urlString:String = "https://www.youtube.com/watch?v=_me2yfR7Jfk"
+    var urlString:String = "https://www.youtube.com/watch?v=aqa9h-nL-TA"
     var indicator:UIActivityIndicatorView!
     
     override func viewDidLoad() {
