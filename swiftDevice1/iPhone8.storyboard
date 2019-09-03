@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WJs-lF-lx7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="UhV-aC-vfx">
+            <objects>
+                <viewController id="WJs-lF-lx7" customClass="ViewController" customModule="swiftDevice1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GRf-vy-01S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="マルチデバイスに対応" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9v7-zG-8bj">
+                                <rect key="frame" x="0.0" y="44" width="375" height="76"/>
+                                <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="2EV-hi-OfE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="summer6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eVq-Od-rR6">
+                                <rect key="frame" x="0.0" y="120" width="375" height="547"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eVq-Od-rR6" firstAttribute="bottom" secondItem="8N7-Eo-TDQ" secondAttribute="bottom" id="2HT-hK-Q2X"/>
+                            <constraint firstItem="9v7-zG-8bj" firstAttribute="trailing" secondItem="eVq-Od-rR6" secondAttribute="trailing" id="KA0-id-g8G"/>
+                            <constraint firstItem="eVq-Od-rR6" firstAttribute="top" secondItem="9v7-zG-8bj" secondAttribute="bottom" id="Yrh-ua-8Rn"/>
+                            <constraint firstAttribute="trailing" secondItem="9v7-zG-8bj" secondAttribute="trailing" id="a4A-eB-VBz"/>
+                            <constraint firstItem="9v7-zG-8bj" firstAttribute="leading" secondItem="GRf-vy-01S" secondAttribute="leading" id="cnt-IQ-l4L"/>
+                            <constraint firstItem="9v7-zG-8bj" firstAttribute="top" secondItem="8N7-Eo-TDQ" secondAttribute="top" constant="24" id="lWf-9S-2fV"/>
+                            <constraint firstItem="9v7-zG-8bj" firstAttribute="leading" secondItem="eVq-Od-rR6" secondAttribute="leading" id="yDp-Nd-pQ4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8N7-Eo-TDQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qJX-VV-h4O" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="summer6.jpg" width="230.39999389648438" height="172.80000305175781"/>
+    </resources>
+</document>
