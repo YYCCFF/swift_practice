@@ -5,13 +5,13 @@ var b:Int=5
 var c:Double=10.0
 var d:Double=5.0
 
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a%b)
+print("a+bは\(a+b)である。")
+print("a-bは\(a-b)である。")
+print("a×bは\(a*b)である。")
+print("a÷bは\(a/b)である。")
+print("a÷bの余りは\(a%b)である。")
 
-print(c+d)
-print(c-d)
-print(c*d)
-print(c/d)
+print("c+dは\(c+d)である。")
+print("c-dは\(c-d)である。")
+print("c×dは\(c*d)である。")
+print("c÷dは\(c/d)である。")
