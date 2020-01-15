@@ -1,30 +1,38 @@
 import UIKit
 
+//if,else if,else
 let yourTestScore:Int = 70
 let testScoreAverage:Int = 60
 
-if yourTestScore>testScoreAverage{
-    print("平均点より高いです。")
-}else if yourTestScore==testScoreAverage{
-    print("平均点と同じです。")
+if yourTestScore > testScoreAverage{
+    print("Your result is higher than average.")
+}else if yourTestScore == testScoreAverage{
+    print("Your result and average are same.")
 }else{
-    print("平均点より低いです。")
+    print("Your result is lower than average.")
 }
 
-let trafficLight:String = "赤"
+let yourPassword = false
+let yourPasswordInPC = true
+let yourPasswordWrittenOnPaper = true
 
-switch trafficLight {
-  case "赤":
-    print("止まりましょう")
-    break;
-  case "黄":
-    print("もうすぐ赤です")
-    break;
-  case "青":
-    print("進みましょう")
-    break;
-  default:
-    print("赤・黄・緑のいずれかを入力してください。")
-    break;
+//Output "Not Correct"
+if yourPassword && yourPasswordInPC{
+    print("Correct.")
+}else{
+    print("Not Correct.")
 }
 
+//Output "Correct"
+if yourPassword || yourPasswordInPC{
+    print("Correct.")
+}else{
+    print("Not Correct.")
+}
+
+//Output "Correct"
+if (yourPassword || yourPasswordInPC) && yourPasswordWrittenOnPaper{
+    print("Correct.")
+}else{
+    print("Not Correct.")
+}
