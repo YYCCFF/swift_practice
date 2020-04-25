@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  MapKit7
-//
-//  Created by 近沢勇輝 on 2020/04/16.
-//  Copyright © 2020 Yuki Chikazawa. All rights reserved.
-//
 
 import UIKit
 
