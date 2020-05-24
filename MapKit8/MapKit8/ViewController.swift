@@ -42,13 +42,6 @@ class ViewController: UIViewController,MKMapViewDelegate {
             for placemark in placemarks!{
                 print("Name:\(placemark.name)")
                 print("Country:\(placemark.country)")
-                print("ISOcountryCode:\(placemark.isoCountryCode)")
-                print("administrativeArea:\(placemark.administrativeArea)")
-                print("subAdministrativeArea:\(placemark.subAdministrativeArea)")
-                print("Locality:\(placemark.locality)")
-                print("PostalCode:\(placemark.postalCode)")
-                print("areasOfInterest:\(placemark.areasOfInterest)")
-                print("Ocean:\(placemark.ocean)")
                 
                 //ピンに情報を挿入する
                 //Insert information into pins
